@@ -1,0 +1,43 @@
+.hello {
+  min-height: calc(100vh - 20px);
+  justify-content: center;
+  align-items: center ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-justify: inter-word;
+  text-align: center;
+  color: purple;
+  font-size: 70px;
+  transition: .6s;
+  position: relative;
+  display: flex;
+  font-weight: 900;
+  top: 10px;
+}
+.h, .w {
+  display: flex;
+}
+
+.hH, .he, .hl, .ho, .wW, .wo, .wr, .wl, .wd  {
+  position: relative;
+  transition: .7s;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.hH:hover, .he:hover, .hl:hover, .ho:hover, .wW:hover, .wo:hover, .wr:hover, .wl:hover, .wd:hover  {
+  display: inline-block;
+  position: relative;
+  color: rgba(128, 0, 128, 0.626);
+  top: 50px;
+}
+
+.carrousel .hH {
+  top: 200px;
+}
+
+@keyframes down {
+  100% {
+    top: 100px
+  }
+}
