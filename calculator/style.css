@@ -4,6 +4,7 @@
   background-color: transparent;
   border: none;
   box-sizing: border-box;
+  font-weight: 900;
 }
 
 body {
@@ -11,8 +12,84 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ccc;
 }
 
 .container {
   background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.displayScreen {
+  border: 2px solid aquamarine;
+  border-radius: 10px 10px 0px 0px;
+  height: 60px;
+}
+
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  gap: 10px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.number {
+  background-color: aquamarine;
+  
+}
+
+.special {
+  background-color: #6390b7;
+  color: #fff;
+}
+
+.operation {
+  background-color: aqua;
+}
+
+.n1, .n4, .n7 {
+  grid-column: 1 / 2;
+}
+
+.oP {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.o- {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+.n0 {
+  grid-column: 2 / 2;
+}
+
+
+.oD {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.ox {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+
+.equals {
+  grid-column: 4 / 5;
+  grid-row: 4 / 6;
+  background-color: red;
+  color: #fff;
+  font-weight: 1000;
 }
