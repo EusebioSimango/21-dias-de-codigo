@@ -22,14 +22,25 @@ body {
   gap: 20px;
   border-radius: 10px;
   padding: 20px;
+  width: 230px;
 }
 
 .displayScreen {
-  border: 2px solid aquamarine;
+  border: 2px solid #f7f7f7;
   border-radius: 10px 10px 0px 0px;
+  background-color: #f7f7f7;
   height: 60px;
 }
 
+.input {
+  width: 100%;
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 16px;
+  outline: none;
+  padding: 5px 10px;
+  color: #000;
+}
 
 .controls {
   display: grid;
