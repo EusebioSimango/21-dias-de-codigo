@@ -41,9 +41,9 @@ const cleanInput = () => {
 }
 
 const deleteLastChar = () => {
-  const inputValue = [...window.document.getElementsByClassName('input')[0].value]
+  const inputValue = window.document.getElementsByClassName('input')[0].value
   
-  
+  window.document.getElementsByClassName('input')[0].value = inputValue.substring(0, inputValue.length - 1)
   
 
 }
