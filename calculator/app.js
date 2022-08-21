@@ -32,18 +32,18 @@ const calculate = () => {
   const resultDisplay = window.document.getElementsByClassName('result')[0]
   const result = eval(inputValue)
 
-  resultDisplay.innerHTML = result
+  resultDisplay.innerHTML = String(result) != 'NaN' ? result : 'Math Error'
 
 }
 
 const cleanInput = () => {
   window.document.getElementsByClassName('input')[0].value = ''
+  window.document.getElementsByClassName('result')[0].innerHTML = ''
+
 }
 
 const deleteLastChar = () => {
   const inputValue = window.document.getElementsByClassName('input')[0].value
   
   window.document.getElementsByClassName('input')[0].value = inputValue.substring(0, inputValue.length - 1)
-  
-
 }

@@ -25,7 +25,7 @@
 | [GitHub Repo](https://github.com/EusebioSimango/21-dias-de-codigo) | day 1 | Done        |
 | Hello World                                                        | day 2 | Done        |
 | Animated Button                                                    | day 3 | Done        |
-| Calculator                                                         | day 4 | In Progress |
+| Calculator                                                         | day 4 | Done |
 | Customized 404 page                                                | day 5 | unknown     |
 | Glassmorphism Card Effect                                          | day 6 | unknown     |
 | Counter                                                            | day 7 | unknown     |
