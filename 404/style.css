@@ -1,0 +1,39 @@
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 10px);
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: blue;
+  font-size: 70px;
+}
+
+.textDesc {
+  font-size: medium;
+  position: relative;
+  bottom: 120px;
+
+}
+
+.textDesc::before {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 205px;
+  height: 3px;
+}
+
+.textDesc span {
+  display: inline-block;
+  position: relative;
+  color: #000;
+  background-color: aquamarine;
+  height: 14px;
+  bottom: 2px;
+  font-size: 12px;
+  width: 115px;
+  text-align: center;
+}

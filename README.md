@@ -26,7 +26,7 @@
 | Hello World                                                        | day 2 | Done    |
 | Animated Button                                                    | day 3 | Done    |
 | Calculator                                                         | day 4 | Done    |
-| Customized 404 page                                                | day 5 | unknown |
+| Customized 404 page                                                | day 5 | Done |
 | Glassmorphism Card Effect                                          | day 6 | unknown |
 | Counter                                                            | day 7 | unknown |
 
